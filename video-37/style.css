@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #061872cc;
+    --text-color: white;
+    --secondery: #dbeafe;
+}
+
+body {
+    background-color: var(--secondery);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.box {
+    margin: auto;
+}
+
+.om:hover {
+    color: #38bdf8;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+h2:hover {
+    color: #38bdf8;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin: 40px auto;
+    font-size: 0;
+}
+
+.om4,
+.om2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.om4 {
+    width: 45%;
+    height: 400px;
+    border: 2px solid #080808;
+    background: rgb(4, 243, 243);
+    margin-right: 20px;
+}
+
+.om2 {
+    width: 45%;
+    height: 400px;
+    border: 2px solid #161515;
+    background: rgb(27, 247, 7);
+}
+
+main {
+    min-height: 200vh;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 57%;
+    background-color: orange;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.box10 {
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 14px;
+    width: 60%;
+    padding: 10px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.box11 {
+    display: inline;
+
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
